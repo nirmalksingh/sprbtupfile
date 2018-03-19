@@ -9,3 +9,9 @@ To test please issue the following commands from the command promt:
 ~$ cd sprbtupfile
 ~$ mvn package
 ~$ java -jar target/mysprbootup-example-0.0.1-SNAPSHOT.jar
+
+To Test:
+Point your browser to: 
+To upload file and test:
+http://localhost:8080/
+
