@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+	<h1>Following are the successfully uploaded files:</h1>
+	<div>
+		<ul>
+			<li th:each="file : ${files}"><a th:href="${file}"
+				th:text="${file}" />
+			</li>
+		</ul>
+	</div>
+	<div>
+		<h3 th:text="${totalFiles}" />
+		<a href="/">Upload Files</a>
+	</div>
+
+</body>
+</html>
