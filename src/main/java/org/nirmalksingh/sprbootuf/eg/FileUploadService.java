@@ -1,7 +1,5 @@
 package org.nirmalksingh.sprbootuf.eg;
 
-//package com.javasampleapproach.uploadfile.storage;
-
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.nio.file.Files;
